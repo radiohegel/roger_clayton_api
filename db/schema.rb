@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 20170929134858) do
     t.text "description"
     t.string "subtitle"
     t.string "githublink"
+    t.string "url"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
