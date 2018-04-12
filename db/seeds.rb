@@ -1,10 +1,4 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+Project.destroy_all
 
 Project.create(title: "Kashkul", description: "Kashkul is a research and arts collaborative, based out of the American University of Iraq in Suleimani. Kashkul is dedicated to the study, creation, and preservation of Iraqi culture. I was commissioned to build them a web platform where they can share information about their various projects and contributing members. The website features a dynamic frontend app, written with Vue.js, which pulls data from a Rails-based backend. The Rails app features a fully custom-built content management system, which allows Kashkul administrators to easily maintain and add new content.", subtitle: "web platform built for an academic organization at AUIS", githublink: "https://github.com/Kashkul/kashkulistan", url: "http://www.kashkul.com/#/")
 Project.create(title: "Flow", description: "Flow Immersive is a startup VR company that builds data-centric VR experiences for sharing symbolic information. This web client was built to give users a platform for hosting and sharing their 'flows.' One of the key features of the Flow web client is its ability to handle multiuser VR experiences, meaning multiple people can enter the same VR space, and interact in the space independently, while remaining able to see other users in avatar form. Because Flow Immersive is a private company, I am unable to share the code for this project.", subtitle: "web client for hosting and sharing VR content", githublink: "n/a", url: "n/a")
